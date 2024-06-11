@@ -17,6 +17,9 @@ importers:
       '@eslint/js':
         specifier: ^9.4.0
         version: 9.4.0
+      '@types/node':
+        specifier: ^20.14.2
+        version: 20.14.2
       eslint:
         specifier: 8.x
         version: 8.57.0
@@ -41,6 +44,9 @@ importers:
       prettier:
         specifier: ^3.3.2
         version: 3.3.2
+      typescript:
+        specifier: ^5.2.2
+        version: 5.4.5
       typescript-eslint:
         specifier: ^7.13.0
         version: 7.13.0(eslint@8.57.0)(typescript@5.4.5)
