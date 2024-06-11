@@ -487,11 +487,3 @@ sample-app 앱 실행
 pnpm app dev
 ```
 
----
-
-#### Reference
-
-https://dev.to/vinomanick/create-a-monorepo-using-pnpm-workspace-1ebn
-https://github.com/vinomanick/pnpm-monorepo
-https://medium.com/@NiGhTTraX/how-to-set-up-a-typescript-monorepo-with-lerna-c6acda7d4559
-https://velog.io/@wns450/%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95-%ED%95%B4%EB%B3%B4%EA%B8%B0-husky
