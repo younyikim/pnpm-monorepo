@@ -1,5 +1,5 @@
 {
-  "name": "common-components",
+  "name": "common",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "common": "pnpm --filter common-components"
+    "common": "pnpm --filter common"
   },
   "devDependencies": {
     "typescript": "^5.2.2",
