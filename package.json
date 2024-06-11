@@ -7,13 +7,12 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "postinstall": "npx mrm lint-staged",
-    "prepare": "husky i"
+    "prepare": "husky"
   },
   "lint-staged": {
-    "**/*.{js,ts,tsx}": [
+    "*.{js,jsx,ts,tsx}": [
       "eslint --fix"
-    ],
-    "**/*": "prettier --write --ignore-unknown"
+    ]
   },
   "keywords": [],
   "author": "",

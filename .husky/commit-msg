@@ -2,3 +2,8 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 npx --no -- commitlint --edit ${1}
+
+if [ $? -eq 0 ]; then
+  echo "🚀 커밋 메시지가 규칙에 맞게 작성되었습니다! 🚀"
+  exit 0
+fi
