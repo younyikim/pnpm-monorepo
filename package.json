@@ -6,8 +6,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "postinstall": "npx mrm lint-staged",
-    "prepare": "husky && husky install",
     "sample-app": "pnpm --filter sample-app",
     "common": "pnpm --filter common"
   },

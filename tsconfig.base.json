@@ -9,9 +9,7 @@
     "skipLibCheck": true,
     "sourceMap": true,
     "jsx": "react-jsx",
-    "moduleResolution": "bundler",
     "target": "es5",
-    "module": "ESNext",
     "outDir": "./dist"
   }
 }
