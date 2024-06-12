@@ -7,9 +7,11 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 
-const app = express();
-
+// dotenv 모듈을 사용해 환경변수 로드
 dotenv.config();
+
+// Express 애플리케이션 생성 및 변수 할당
+const app = express();
 
 app.use(
   cors({
@@ -28,6 +30,7 @@ server.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
 
+// Mongo DB 연결
 const MONGODB_URL = process.env.MONGODB_URL ?? '';
 
 mongoose
