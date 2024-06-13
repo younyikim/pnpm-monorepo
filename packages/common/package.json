@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main": "src/common.js",
+  "main": "src/main.ts",
   "types": "src/main.d.ts",
   "scripts": {
     "dev": "vite",
